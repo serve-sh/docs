@@ -2,6 +2,8 @@
 
 The official API documentation for [serve.sh](https://serve.sh)
 
+Coming soon!
+
 ## Contributing
 
 In order to contribute to the documentation, it will be helpful to serve your changes locally so you can preview your edits in real-time.
