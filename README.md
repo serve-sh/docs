@@ -8,6 +8,14 @@ Coming soon!
 
 In order to contribute to the documentation, it will be helpful to serve your changes locally so you can preview your edits in real-time.
 
+### Prerequisites
+
+- Python 3
+- pip
+- mkdocs
+
+### Installation
+
 First, install the dependencies:
 
 ```bash
