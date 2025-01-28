@@ -1,0 +1,88 @@
+site_name: Serve API Documentation
+site_description: The official API documentation for serve.sh
+site_url: https://serve.sh/docs
+
+exclude_docs: includes/
+
+theme:
+  name: material
+  icon:
+    logo: material/book-open-page-variant
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  custom_dir: overrides
+  features:
+    # - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.sections
+    - navigation.footer
+    - announce.dismiss
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/serve-sh
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/serve_sh
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/jr5hREegBt
+copyright: Copyright &copy; 2025 <a href="https://serve.sh">serve.sh</a>
+
+plugins:
+  - search
+  - privacy
+  - social
+  - glightbox
+  - macros
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+      timezone: US/Pacific
+      # enable_creation_date: true
+      exclude:
+        - index.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - meta
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      base_path: docs/includes
+
+nav:
+  - Home: index.md
+  - Powered by serve.sh: https://serve.sh
