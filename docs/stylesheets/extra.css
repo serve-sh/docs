@@ -1,0 +1,25 @@
+[data-md-color-scheme="slate"] {
+  --md-hue: 250;
+}
+
+[dir="ltr"] .md-header__title {
+  margin-left: 0;
+}
+
+.md-typeset img.screenshot {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.md-typeset img.screenshot.small {
+    max-width: 200px;
+}
+
+.md-typeset img.screenshot.large {
+  max-width: 700px;
+}
