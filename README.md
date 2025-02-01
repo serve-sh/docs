@@ -4,6 +4,13 @@ The official API documentation for [serve.sh](https://serve.sh)
 
 Coming soon!
 
+## Support
+
+If you need help with this API, do not hesitate to get in contact with us!
+
+- To report a bug or make a feature request, open an [Issue](https://github.com/serve-sh/docs/issues).
+- For anything else, our small but growing Discord community is visited by our team and other users. [Join us](https://discord.com/invite/jr5hREegBt) to connect, share ideas, and get community support!
+
 ## Contributing
 
 In order to contribute to the documentation, it will be helpful to serve your changes locally so you can preview your edits in real-time.
