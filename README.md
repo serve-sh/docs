@@ -8,6 +8,7 @@ Coming soon!
 
 If you need help with this API, do not hesitate to get in contact with us!
 
+- For questions and high-level discussions, use Discussions on GitHub (Coming soon!)
 - To report a bug or make a feature request, open an [Issue](https://github.com/serve-sh/docs/issues).
 - For anything else, our small but growing Discord community is visited by our team and other users. [Join us](https://discord.com/invite/jr5hREegBt) to connect, share ideas, and get community support!
 
